@@ -1,9 +1,9 @@
 # GeeksFiesta_AI-ML_-Tweek-
 Project as part of Hackathon conducted by GeeksForGeeks IIITBBSR Chapter
 
-Link for  ML deployed website -                             
+Link for YouTube video of website -                             
     
-[PM2.5 Prediction site](https://ml-tweek.herokuapp.com)
+[PM2.5 Prediction](https://youtu.be/nOiFm7kJ-i0)
            
 
            
