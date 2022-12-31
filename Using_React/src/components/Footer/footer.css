@@ -1,0 +1,17 @@
+.footer{
+    box-shadow: 25px -4px 25px rgba(38, 38, 38, 0.2);
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:2px solid red; */
+}
+
+.footer p{
+    padding-left:10%;
+    padding-bottom: 1%;
+    background: linear-gradient(45deg, #AE67FA 60%, #F49867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--font-family);
+}

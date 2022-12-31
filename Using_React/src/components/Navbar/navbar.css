@@ -1,0 +1,39 @@
+.PM_navbar {
+  width: 100%;
+  margin: 0;
+  padding-top: 5px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  --link-color: 102, 153, 255;
+}
+
+.PM_navbar-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left:30%;
+  margin-right: 30%;
+}
+
+a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #AE67FA 100%, #F49867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-family: var(--font-family);
+}
+a:hover {
+    text-decoration: underline 2px solid purple;
+    transition:.1s ease ;
+  }
+  

@@ -1,0 +1,91 @@
+.Predict{
+    width: 100%;
+    height: 120%;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid red; */
+}
+
+.Predict h1{
+    text-decoration: underline 5px purple;
+    margin-top: 50px;
+    padding-left:40%;
+    background: linear-gradient(45deg, #AE67FA 60%, #F49867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--font-family);
+}
+
+ form{
+    padding-top:30px;
+    padding-left:350px;
+ }
+
+
+input{
+    font-family: var(--font-family);
+    height:50px;
+    width: 60%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 8px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 0px solid rgba(0,0,0,0.3);
+	border-radius: 6px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+
+button {
+  margin-top: 5px;
+  width: 60%;
+  height: 8%;
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-image: linear-gradient(-180deg, #e0e0e0 50%, #17759C 100%);
+}
+
+.answer{
+    font-family: var(--font-family);
+    width:100%;
+    font-size: 30px;
+    /* border:2px solid red; */
+    padding-left:30%;
+    height: 40px;
+    margin-bottom: 25px;
+    background: linear-gradient(45deg, #AE67FA 100%, #F49867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .button-43 {
+    padding: 1rem 2rem;
+  }
+}
